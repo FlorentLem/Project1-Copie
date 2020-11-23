@@ -5,7 +5,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-/* navbar */
+/* NavBar */
 .menuBurger{
     display: none;
     justify-content: center;
@@ -29,7 +29,7 @@
     left: 0;
     z-index: 150;
     width: 100%;
-    background: #00BE7B;
+    background: #8091b3;
     transition: 0.6s;
     
 }
@@ -56,17 +56,13 @@
     display: none;
 }
 .menuContent li {
-    background-color: #00BE7B;
+    background-color:#394660;
     color: white;
     font-size: 3.5vw;
     padding: 20px 20px 20px 20px;
     text-align: center;
     display: none;
 
-}
-a {
-    text-decoration: none;
-    color: inherit;
 }
 .navigation {
     font-size: 1.35vw;
@@ -83,13 +79,13 @@ a {
     padding: 40px 25px 40px 25px;
 
 }
-/*.navigation a {
+a {
     text-decoration: none;
     color: inherit;
-}*/
+}
 .navigation li:hover {
     background-color: white;
-    color: #00BE7B;
+    color:#394660;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -99,6 +95,29 @@ a {
 .logoChartresBurger {
     width: 90%;
     margin: 200px 0 0 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 1280px) {
+    .navigation{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menuBurger{
+        display: flex;
+    }
+    .navBar {
+        display: flex;
+        position: fixed;
+        padding: 20px 0 15px 0;
+
+    }
+    .menuContent{
+        display: block;
+    }
+    .menuContent li {
+        display: block;
+    }
 }
 
 
@@ -390,12 +409,13 @@ p {
 padding-left: 5%;    }
 }
 
-/* footer */
+/*Footer */  
 footer{
     height: 200px;
-    background: #00BE7B;
+    background: #8091b3 ;
     color: white;
     font-size: 20px;
+    
 }
 #containerFooter li{
     color: white;
@@ -414,7 +434,9 @@ footer{
     color: inherit;
 }
 #containerFooter li:hover{
-    color: #404040;
+    color: #394660;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 @media screen and (min-width : 0px) and (max-width : 667px){
     footer{

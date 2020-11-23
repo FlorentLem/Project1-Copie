@@ -1,26 +1,24 @@
 {
-  "name": "projet1-copie",
+  "name": "Projet1-copie",
   "version": "1.0.0",
-  "description": "tuto parcel",
+  "description": "Copie projet 1",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "prebuild": "rm -rf dist",
     "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlorentLem/Project1-Copie.git"
   },
-  "author": "FlorentLem",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FlorentLem/Project1-Copie/issues"
   },
   "homepage": "https://github.com/FlorentLem/Project1-Copie#readme",
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-imagemin": "^4.0.1"
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }

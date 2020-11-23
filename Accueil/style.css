@@ -10,20 +10,11 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* NavBar */
 .menuBurger{
     display: none;
     justify-content: center;
+   
     flex-direction: column;
     padding: 0 0 0 2%;
     margin: 0 55% 0 1%;
@@ -44,7 +35,7 @@ body{
     left: 0;
     z-index: 150;
     width: 100%;
-    background: #00BE7B;
+    background: #8091b3;
     transition: 0.6s;
     
 }
@@ -71,7 +62,7 @@ body{
     display: none;
 }
 .menuContent li {
-    background-color: #00BE7B;
+    background-color:#394660;
     color: white;
     font-size: 3.5vw;
     padding: 20px 20px 20px 20px;
@@ -100,7 +91,7 @@ a {
 }
 .navigation li:hover {
     background-color: white;
-    color: #00BE7B;
+    color:#394660;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -134,11 +125,6 @@ a {
         display: block;
     }
 }
-
-
-
-
-
 
 
 /* Carousel */
@@ -178,18 +164,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Welcome */
 .welcome {
     position: absolute;
@@ -197,7 +171,7 @@ a {
     color: white;
     text-align: center;
     right: 5%;
-    top: 25%;
+    top: 10%;
     height: 500px;
     padding: 150px 50px 50px;
 }
@@ -238,23 +212,10 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Categories */
 #Categories {
     background-color: #404040;
-    box-shadow: 2px 36px 41px -28px  #00BE7B;
+    box-shadow: 2px 36px 41px -28px  #000;
     font-weight: 700;
     margin-bottom: 125px;
     font-size: 4vw;
@@ -302,7 +263,7 @@ a {
     opacity: 0.6;
 }
 .blue-hover:hover {
-    background-color: #00BE7B;
+    background-color:#8091b3;
 }
 #Patrimoine {
     background-image: url('assets/Categorie-Patrimoine.jpg');
@@ -349,14 +310,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
 /* Articles */
 #LastPost{
     margin: 15px;
@@ -395,7 +348,7 @@ a {
     left: 0;
     right: 0;
     transition: 0.9s ease;
-    background-color: rgb(0, 190, 123, 0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     overflow: hidden;
     z-index: 20;
     border-radius: 5px;
@@ -409,7 +362,7 @@ a {
     font-weight: 300;
     font-size: 3.5vw;
     display: block;
-    background-color: rgb(0, 190, 123);
+    background-color: rgb(57, 70, 96);
     border-radius: 5px 5px 0 0;
     text-align: center;
     padding: 10px 0 10px 0;
@@ -425,7 +378,7 @@ a {
 .textDescription {
     color: white;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -469,19 +422,10 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*Footer */  
 footer{
     height: 200px;
-    background: linear-gradient(180deg, #00BE78, #015e3c) ;
+    background: #8091b3 ;
     color: white;
     font-size: 20px;
     
@@ -503,8 +447,9 @@ footer{
     color: inherit;
 }
 #containerFooter li:hover{
-    color: #404040;
+    color: #394660;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 @media screen and (min-width : 0px) and (max-width : 667px){
     footer{
