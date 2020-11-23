@@ -4,8 +4,9 @@
   "description": "Copie projet 1",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "start": "Parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "Parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
