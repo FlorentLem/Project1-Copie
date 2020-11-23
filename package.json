@@ -1,0 +1,25 @@
+{
+  "name": "Projet1-copie",
+  "version": "1.0.0",
+  "description": "Copie projet 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "Parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "Parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorentLem/Project1-Copie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorentLem/Project1-Copie/issues"
+  },
+  "homepage": "https://github.com/FlorentLem/Project1-Copie#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

@@ -37,7 +37,7 @@
     left: 0;
     z-index: 150;
     width: 100%;
-    background: #00BE7B;
+    background: #8091b3;
     transition: 0.6s;
     
 }
@@ -64,7 +64,7 @@
     display: none;
 }
 .menuContent li {
-    background-color: #00BE7B;
+    background-color:#394660;
     color: white;
     font-size: 3.5vw;
     padding: 20px 20px 20px 20px;
@@ -93,7 +93,7 @@ a {
 }
 .navigation li:hover {
     background-color: white;
-    color: #00BE7B;
+    color:#394660;
     cursor: pointer;
     transition: 0.4s ease;
 }
@@ -129,58 +129,26 @@ a {
 }
 
 
+
 /* ------------------MAIN-----------------------------*/  
 
 .main {
     height: 350px;
     background: url('img/Chartres1.jpg') center;
     background-size: cover;
-    font-family: sans-serif;
     color: white;
-    font-size: 20px;
-    text-shadow: 2px 2px 2px #00BE78;
+    text-transform : uppercase;
+    font-weight: 800;
+    text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 8px;
+    font-size: 4vw;
     position: relative;
-}
-#img-Contact{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-.main:hover{
-    transform: scale(1.1);
-    transition:all 0.3s; 
-  }
-  
-.text {
-    color: white;
-    font-size: 25px;
-    text-shadow: 1px 1px 2px black; 
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
 
-.main:hover .overlay {
-        opacity: 1;        
-    }
-
-.overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: rgba(0, 190, 120, 0.7);
 }
+
 
 /* ------------------ABOUT US-----------------------------*/  
 
@@ -191,7 +159,7 @@ a {
     grid-template-rows: 1fr;
 }
 .blocElement1 p{
-    font-style: italic;
+    font-style: italic;é
 }
 #team {
     padding-left: 40px;
@@ -357,7 +325,7 @@ input[type=text],[type=email], textarea {
   
   button[type=submit] {
     width: 70%;
-    background-color: #00BE78;
+    background-color: #394660;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -367,7 +335,8 @@ input[type=text],[type=email], textarea {
   }
   
   button[type=submit]:hover {
-    background-color: orange;
+      color: #394660;
+    background-color: white;
     transition: 0.3s ease;
   }
   
@@ -396,7 +365,7 @@ input[type=text],[type=email], textarea {
 /*Footer */  
 footer{
     height: 200px;
-    background: linear-gradient(180deg, #00BE78, #015e3c) ;
+    background: #8091b3 ;
     color: white;
     font-size: 20px;
     
@@ -418,8 +387,9 @@ footer{
     color: inherit;
 }
 #containerFooter li:hover{
-    color: #404040;
+    color: #394660;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 @media screen and (min-width : 0px) and (max-width : 667px){
     footer{
